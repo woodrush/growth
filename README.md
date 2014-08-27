@@ -18,11 +18,11 @@ When executed, this code outputs a figure of a forest, consisting of 9 trees.
 The number of trees to draw could be changed by changing the constant 9
 in the end of the code.
 
-In this code, the following features are implemented:
+In this code, the following features are implemented/used:
 
 - recursion (and loops)
 - conditionals (and lazy evaluation)
-- lexical variables ('let' clause)
+- local variables ('let' clause)
 - execution of multiple statements
 
 Technical details
@@ -33,5 +33,5 @@ Technical details
     where the index number is given by a formula consisting of relational operators.
 - Lazy evaluation is performed by wrapping an expression with @()
     and then applying feval at a desired timing.
-- Lexical variables are implemented by passing constants to a function through its arguments.
+- Local variables are implemented by passing constants to a function through its arguments.
 
