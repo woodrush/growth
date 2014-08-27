@@ -5,7 +5,7 @@ Yet another obfuscated MATLAB code.
 
 ### Contents
 - growth.m - the obfuscated code
-- forest.m - the unobfuscated version
+- unobfusver.m - the unobfuscated version
 
 ### Explanation
 This program demonstrates several techniques for 
